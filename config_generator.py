@@ -80,6 +80,11 @@ for current_argument, current_value in arguments:
 
 options['exports'][0]['name'] = "mqtt" 
 options['exports'][0]['enabled'] = True
+options['exports'][0]['port'] = 1883
+options['exports'][0]['host'] = '192.168.1.100'
+options['exports'][0]['username'] = "mqtt_user"
+options['exports'][0]['password'] = "mqttpassword"
+
 options['exports'][0]['homeassistant']= True
     
 #Basic Level sensor
